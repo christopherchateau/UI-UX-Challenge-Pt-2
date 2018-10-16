@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --include-path sass --watch styles/app.sass styles/app.css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/christopherchateau/UI-UX-Challenge-Pt-2#readme",
   "devDependencies": {
     "sass": "^1.14.2"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.4"
   }
 }

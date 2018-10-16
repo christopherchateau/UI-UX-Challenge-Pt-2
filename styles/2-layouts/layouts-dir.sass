@@ -1,0 +1,27 @@
+body
+  display: grid
+  grid-template-areas: "Aside Main"
+  height: 100vh
+
+  .l-aside
+    grid-area: Aside
+    border: 4px solid #49a1ec
+    display: grid
+    grid-template-areas: "top" "bottom"
+    grid-template-rows: 2fr 8fr
+
+    header 
+      grid-area: top
+      display: grid
+      grid-template-areas: "pic playback"
+      grid-template-columns: 2fr 4fr
+      border: 2px solid green
+
+
+
+    .calendar
+      grid-area: bottom
+
+  .l-main
+    grid-area: Main
+    border: 4px solid #49a1ec
