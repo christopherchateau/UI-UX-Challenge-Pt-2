@@ -25,3 +25,17 @@ body
   .l-main
     grid-area: Main
     border: 4px solid #49a1ec
+
+    .main-top
+      display: grid
+      grid-template-areas: "main-top-left main-top-right"
+      grid-template-columns: 2fr 1fr
+
+
+      .main-top-left
+        grid-area: main-top-left
+
+      .main-top-right
+        border: 2px solid red
+        grid-area: main-top-right
+
